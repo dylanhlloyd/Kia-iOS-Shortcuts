@@ -2,8 +2,9 @@
 name = "python-template"
 version = "0.1.0"
 description = ""
-authors = [
-  {name = "Dylan Lloyd", email = "dylanlloyd@icloud.com"}
-]
+authors = ["Dylan Lloyd <dylanlloyd@icloud.com>"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "flask>=3.1.0",
+    "hyundai-kia-connect-api>=3.32.7",
+]
